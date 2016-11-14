@@ -1,0 +1,74 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-dark">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+      <a href="#/app/introducao" class="button button-icon button-clear ion-android-home"></a>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Problemas com a Internet?</h1>
+    </ion-header-bar>
+
+    <ion-content>
+      <ion-list>
+        
+        <ion class="item item-divider"> Contato</ion>
+        <ion-item menu-close href="#/app/ligue" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-chatboxes-outline"></i>
+          Fale Conosco</ion-item>
+          </ion-list>
+          <ion-item menu-close href="#/app/ligue" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-at-outline"></i>
+          <a ng-click="GotoLink('http://177.22.39.4:8080/sac/opem.do?action=open&sys=SAC')" target="_blank"><font color="#000000"><h2>Auto Atendimento</h2></a>
+          </ion-item>
+        <ion class="item item-divider item-text-wrap">Sem Acesso</ion>
+        <!--<ion-item menu-close ng-click="login()">
+          Login
+        </ion-item>-->
+        <ion-item menu-close href="#/app/acesso" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-checkmark-empty"></i>
+          Verifique o Acesso
+        </ion-item>
+    
+        <ion class="item item-divider item-text-wrap">Acesso Limitado</ion>
+
+          <ion-item menu-close href="#/app/ip" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-world-outline"></i>
+          Verifique se o IP não está fixo
+        </ion-item>
+
+        <ion-item menu-close href="#/app/dns" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-settings"></i>
+          Mude o DNS
+        </ion-item>
+
+        <ion-item menu-close href="#/app/verifiqueComputador" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-loop"></i>
+          Verifique seu Computador
+        </ion-item>
+
+        <ion-item menu-close href="#/app/mudeSenha" class="item item-icon-left item-text-wrap"><i class="icon ion-ios-locked-outline"></i>
+          Troque sua Senha
+        </ion-item>
+
+
+        <ion class="item item-divider item-text-wrap">Adaptador de Rede</ion>
+          <ion-item menu-close href="#/app/problemas" class="item item-icon-left item-text-wrap"><i class="icon ion-stats-bars"></i>
+            Problemas no Adaptador</ion-item>
+          <ion-item menu-close href="#/app/habilitando" class="item item-icon-left item-text-wrap"><i class="icon ion-connection-bars"></i>
+            Habilitando o Adaptador</ion-item>
+          <ion-item menu-close href="#/app/redefinindo" class="item item-icon-left item-text-wrap"><i class="icon ion-loop"></i>
+            Redefinindo o Adaptador</ion-item>
+          <ion-item menu-close href="#/app/atualizando" class="item item-icon-left item-text-wrap"><i class="icon ion-wifi"></i>
+            Atualizando o Adaptador</ion-item>
+          
+      </ion-list>
+</div>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

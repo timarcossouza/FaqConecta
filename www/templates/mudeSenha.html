@@ -1,0 +1,29 @@
+ <ion-view view-title="Mude sua Senha">
+ <ion-content>
+   <div class="card">
+      <div class="item item-text-wrap">
+      Deixar o mesmo código por muito tempo pode aumentar as chances de que vizinhos o descubram, o que pode gerar desde lentidão na rede até invasões e infecções com vírus. Por isso se faz importante trocar a senha ao menos uma vez a cada 3 meses. Você pode fazer isso seguindo os passos abaixo:
+      </div>
+   </div>
+
+   <div class="card-wrap">
+        <div class="card full-card">
+        <img src="img/mudeSenha.png" alt="" />
+    </div>
+    
+	<div class="card">
+   			<div class="item item-divider">Etapas</div>
+   			<div class="item item-text-wrap">
+   				<ion-item class="item item">Primeiramente, você precisa saber o ip de acesso para que possa acessar o roteador. O IP da conecta geralmente é 192.168.1.1, porém caso esse não funcione cheque se há o ip do seu moldem na lista de moldens abaixo.</ion-item>
+   				<ion-item class="item item">Com o IP de acesso, basta coloca-lo na barra de endereços do seu navegador, como se fosse para um site qualquer. Uma tela de pop up aparecerá pedindo o login e senha. Lembre-se de usar o login do moldem (pode ser visto na lista de moldens também), não o de sua internet.
+                       
+               </ion-item>
+   				<ion-item class="item item">Após inserir usuário e senha, procure a opção  de configuraçõe (em alguns modelos essa opção pode ser chamada por "basic settings" ou "interface setup") e clique em Wireless. Vá a sessão "WPS Settings" e troque o nome em "SSID" pelo novo nome da rede desejado.</ion-item>
+               <ion-item class="item item">Agora vá na sessão "WAP2-PSK" e altere o campo "Pre-Shared Key" ou "Senha" colocando a nova senha e, por fim, clique em salvar para concluir o processo.</ion-item>
+   			</div>
+   	</div>
+            <ion-item menu-close href="#/app/listaipsenha" class="item item-icon-left item-text-wrap"><i class="icon ion-gear-a"></i>
+            Lista de Moldens e seus respectivos IPs, Logins e Senhas</ion-item>
+            
+   </ion-content>
+</ion-view>

@@ -1,0 +1,147 @@
+ <ion-view view-title="Lista de moldens">
+ <script src="js/teste.js"></script>
+ <ion-content>
+ 	<div class="list list-inset">
+  		<!--<label class="item item-input">
+    		<i class="icon ion-search placeholder-icon"></i>
+    		<input type="text" placeholder="Search - ainda não disponível" name="pesquisa">
+  		</label>
+  		<a ng-click="procura()">Procurar</a>
+	</div>-->
+
+	<div class="card" my-html-filter="model.filter" element="b">
+   			<div class="item item-text-wrap">
+   				<ion class="item item-divider item-text-wrap">A</ion>
+   				<ion-item class="item item">
+   					<b name="modem-name">Alcatel SpeedTouch 510v5/v6(i)</b><br><br>
+   					<b>IP:</b> 192.168.1.100<br>
+   					<b>Usuário:</b> Administrator<br>
+   					<b>Senha:</b> “em branco”
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Alcatel Speedtouch Pro</b><br><br>
+   					<b>IP:</b> 10.0.0.138<br>
+   					<b>Usuário:</b> keycode&senh@2001<br>
+   					<b>Senha:</b> keycode&senh@01
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Alcatel Thomson Speed Touch 510 PPPoE</b><br><br>
+   					<b>IP:</b> 10.0.0.138
+   				</ion-item>
+
+   				<ion class="item item-divider item-text-wrap">D</ion>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">DSLink 200E/200U/220E/260E</b><br><br>
+   					<b>IP LAN:</b> 192.168.1.1<br>
+   					<b>IP USB</b> 192.168.1.2<br>
+   					<b>Usuário:</b> root<br>
+   					<b>Senha:</b> root<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">D-Link DSL 500B/500T/502G PPPoE Routed</b><br><br>
+   					<b>IP:</b> 10.1.1.1<br>
+   					<b>Usuário:</b> admin<br>
+   					<b>Senha:</b> admin<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">D-Link DSL 500G PPPoE Routed</b><br><br>
+   					<b>IP:</b> 10.1.1.1 ou 192.168.254.254<br>
+   					<b>Usuário:</b> admin ou TMAR#HWMT8007079<br>
+   					<b>Senha:</b> admin ou HWMT8007079<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Dynalink RTA100</b><br><br>
+   					<b>IP:</b> 192.168.1.1<br>
+   					<b>Usuário:</b> root<br>
+   					<b>Senha:</b> root<br>
+   				</ion-item>
+
+   				<ion class="item item-divider item-text-wrap">E</ion>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Ericsson HM210 PPPoE Routed</b><br><br>
+   					<b>IP:</b> 192.168.1.1<br>
+   					<b>Usuário:</b> root<br>
+   					<b>Senha:</b> root<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Ericsson HM220 – DP PPPoE Routed</b><br><br>
+   					<b>IP:</b> 192.168.254.254<br>
+   				</ion-item>
+
+   				<ion class="item item-divider item-text-wrap">H</ion>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Huawei SmartAX MT800/MT880 PPPoE Routed</b><br><br>
+   					<b>IP:</b> 192.168.1.1<br>
+   					<b>Usuário:</b> TMAR#HWMT8007079<br>
+   					<b>Senha:</b> HWMT8007079<br>
+   				</ion-item>
+
+   				<ion class="item item-divider item-text-wrap">K</ion>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Kayomi LP-AL2011P</b><br><br>
+   					<b>IP:</b> 10.0.0.2<br>
+   					<b>Usuário:</b> user ou admin<br>
+   					<b>Senha:</b> password ou epicrouter<br>
+   				</ion-item>
+
+   				<ion class="item item-divider item-text-wrap">L</ion>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">LG LAM 300C PPPoE Routed</b><br><br>
+   					<b>IP:</b> 192.168.10.1<br>
+   					<b>Usuário:</b> user ou eng<br>
+   					<b>Senha:</b> “em branco” ou password<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">LG LAM300R PPPoE Routed</b><br><br>
+   					<b>IP:</b> 10.0.0.2<br>
+   					<b>Usuário:</b> admin<br>
+   					<b>Senha:</b> conexant<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">LG LAM400R/LAM400C PPPoE Routed</b><br><br>
+   					<b>IP:</b> 10.0.0.2<br>
+   					<b>Usuário:</b> admin<br>
+   					<b>Senha:</b> epicrouter<br>
+   				</ion-item>
+
+   				<ion class="item item-divider item-text-wrap">S</ion>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">Siemens SpeedStream 4100/4200 PPPoE Routed</b><br><br>
+   					<b>IP:</b> 192.168.254.254<br>
+   					<b>Usuário:</b> admin<br>
+   					<b>Senha:</b> admin<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">SpeedStream 5400</b><br><br>
+   					<b>IP:</b> 192.168.254.254<br>
+   					<b>Usuário:</b> admin ou TMAR#SSPE240006A03<br>
+   					<b>Senha:</b> admin ou SSPE240006A03<br>
+   				</ion-item>
+
+   				<ion-item class="item item">
+   					<b name="modem-name">SpeedStream 5660</b><br><br>
+   					<b>IP:</b> 10.0.0.1<br>
+   					<b>Usuário:</b> admin<br>
+   					<b>Senha:</b> admin<br>
+   				</ion-item>
+
+   			</div>
+   	</div>
+      
+   </ion-content>
+</ion-view>
