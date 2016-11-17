@@ -29,7 +29,7 @@ myapp.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   });
 
   // Triggered in the login modal to close it
-  $scope.closeLogin = function() {
+  /*$scope.closeLogin = function() {
     $scope.modal.hide();
   };
 
@@ -73,7 +73,7 @@ myapp.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
     $timeout(function() {
       $scope.closeLogin();
     }, 1000);
-  };
+  };*/
 });
 
 myapp.controller('PlaylistsCtrl', function($scope) {

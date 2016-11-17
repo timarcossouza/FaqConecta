@@ -30,20 +30,14 @@ app.run(function($ionicPlatform, $state, $ionicHistory) {
       history.go(-1);
       
       $ionicHistory.clearHistory();
-      /*
-      $ionicHistory.clearCache();
-      $ionicHistory.clearHistory();
-      navigator.app.backHistory();
-      navigator.app.clearHistory();*/
     }
-    /*count = -1;*/
   }, 100);
 
 
 
 })
 
-app.controller('EmailCtrl', function($cordovaEmailComposer, $scope) {
+/*app.controller('EmailCtrl', function($cordovaEmailComposer, $scope) {
   console.log("entrei no email composer");
   $cordovaEmailComposer.isAvailable().then(function() {
     // is available
@@ -73,7 +67,7 @@ app.controller('EmailCtrl', function($cordovaEmailComposer, $scope) {
       // user cancelled email
     });
   }
-});
+});*/
 
 app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
