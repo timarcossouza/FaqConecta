@@ -1,6 +1,6 @@
 # FAQ Conecta
 
-Aplicativo desenvolvido com o intuito de dar dicas aos clientes de soluções simples para caso sua internet não funcione
+Aplicativo desenvolvido com o intuito de dar dicas e soluções simples aos clientes da Conecta Telecom, com problemas em sua internet.
 
 ### Requisitos:
 * NodeJS
